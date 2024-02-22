@@ -1,41 +1,51 @@
 <html>
     <head>
         <title><i>New Awesome Product</i></title><!-- first level heading-->
+        <link rel="stylesheet" href="style.css">
     </head>
       <body>
-          <header style="background-color:cyan">
-              <h1><i>New Awesome Product</i></h1>
+          <header>
+              <h1><i>New Awesome Product...</i></h1>
           
           </header>
 
   <main>
         <img src="https://blob.sololearn.com/courses/np.png"><!--image url-->
-         <p>Introducing our <b>latest product</b>, design to make 
-         your <u>life easier and more effective</u></p><!--Product explanation -->
-     <ul>
+         <p class="heading">Introducing our <b>latest product</b>, design to make 
+         your life easier and more effective</p><!--Product explanation -->
+         <br>
+     <ul class="description" >
          <li>Saves your time</li>
          <li>Saves money</li>
-         <li>Saves your efforts</li> 
-    <h2 style="background-color:Red">Order now!</h2>
-    <form><label for="color">Color:</label>
-        <select id="size">
-          <option>Small</option>
-          <option>Medium</option>
-          <option>Large</option>
+         <li>Saves your efforts</li> <br>
+        <br>
+    <h2 class="Order" > Order now!</h2>
+    <form>
+     <div class="select">
+        
+          <label for="size" class="lbl">Size:</label>
+          <select id="size">
+          <option style="font-size: large;">Small</option>
+          <option style="font-size: large;">Medium</option>
+          <option style="font-size: large;">Large</option>
           <option>Extra Large</option></select>
-        <select id="color">
-          <option>Red</option>
-          <option>Blue</option>
-          <option>Black</option>
-          <option>Yellow</option></select><br><br>
-          
-    <label>Name:</label><input type="text"><br> <br>
-    <label>Email:</label><input type="email"><br><br>
-        <input type="submit" name=submit value=submit style="border:none;border-radius:5px;color:blue"onclick="alert('Order confirmed!')"">
-    </form>
-</main>    
-    <footer style="background-color:pink"> 
-      <p>  Made with love and care!</p>
+          <label for="color" class="lbl">     Color:</label>
+          <select id="color">
+          <option style="color: red; font-size: large;">Red</option>
+          <option style="color: blue;font-size: large;">Blue</option>
+          <option style="color: black;font-size: large;">Black</option>
+          <option  style="color: yellow;font-size: large;" >Yellow</option></select>
+    </div><br><br>
+    <div class="details">          
+    <label class="lbl">Name:</label><input type="text" placeholder="Enter your name here.."><br> <br>
+    <label class="lbl">Email:</label><input type="email" placeholder="Enter your email here..."><br><br>
+        <input id="btn"  type="submit" name=submit value=ㅤSubmitㅤ onclick="alert('Order confirmed!')">
+    </div>
+</form>
+</main>   <br> 
+    <footer > 
+      <p>  Made with love and care!   💝</p>
+    </footer>
     
 
     
