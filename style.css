@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}  
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.wallpaperscraft.com/image/single/background_solid_spot_65990_1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 10px;
+    
+    
+}
+img{
+    position: absolute;
+    margin-bottom: 0px;
+    top: 3%; 
+    backdrop-filter: blur(20%);
+}
+h1{
+    color: blanchedalmond;
+    text-shadow:  0 0 15px #02ffdd,0 0 15px #02ffdd,0 0 15px #02ffdd;
+    position: absolute;
+    align-items: center;
+    margin-bottom: 40px;
+    top: 35%;
+}
+h1:hover{
+    color: #ffffff;
+    text-shadow: 0 0 25px #ba0cff, 0 0 25px #ff00f2b9, 0 0 25px #ad1eff;
+}
+.description{
+    position: absolute;
+    margin: 10px;
+    top: 48%;
+    font-size: larger;
+    color: #000;
+}
+
+.Order{
+    font-size: 25px;
+    position: absolute;
+    top: 55%;
+    background-color: #91cff3;
+    color: aliceblue;
+    border: solid 1px;
+    border-radius: 15px;
+    box-sizing:content-box;
+    
+}
+
+.heading{
+    font-weight: 700;
+    position: absolute;
+    align-items: center;
+    top: 35%;
+    margin: 60px;
+    left: 20%;
+    font-size: 20px;
+}
+
+footer{
+    position: absolute;
+    align-items: center;
+    bottom: -20%;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 2px #ff02f2, 0 0 2px #ff02f2, 0 0 2px #ff02f2, 0 0 15px #ff02f2;
+    font-family: 'Lucida Sans'; 
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;   
+}
+.select{
+    display: flex;
+    position: absolute;
+    top: 105%;
+    margin-bottom:10px;
+}
+.details{
+    position: absolute;
+    top: 110%;
+    padding-top: 50px;
+    
+}
+.lbl{
+    font-size:larger ;
+    font-weight: 700;
+}
+#btn{
+   font-size: 22px;
+   font-weight: 700;
+   border: solid 3px rgb(0,0,255);
+   border-width: 3px;
+   border-radius: 50px;
+   color: rgb(0, 0, 255);
+   background-color: rgb(199, 255, 88);
+}
+#btn:hover{
+    transform: scale(1.2);
+}
+
+#btn:active{
+    transform: scale(0.7);
+}
